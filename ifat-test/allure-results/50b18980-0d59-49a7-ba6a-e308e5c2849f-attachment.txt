@@ -1,0 +1,7 @@
+{
+  "msg" : "查询不到相关活动详情!",
+  "trace" : "MEIJI-LOTTERY-ACTIVITY-SERVICE-IMPL-BE-05008",
+  "data" : null,
+  "code" : "05008",
+  "timestamp" : 1648709833136
+}

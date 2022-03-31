@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ifat-TestNg.iml" filepath="$PROJECT_DIR$/Ifat-TestNg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ifat-biz/ifat-biz.iml" filepath="$PROJECT_DIR$/ifat-biz/ifat-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ifat-support/ifat-support.iml" filepath="$PROJECT_DIR$/ifat-support/ifat-support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ifat-test/ifat-test.iml" filepath="$PROJECT_DIR$/ifat-test/ifat-test.iml" />
+    </modules>
+  </component>
+</project>

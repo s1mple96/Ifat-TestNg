@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+    <test name = "common">
+        <parm key="token" value ="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJBUFAiLCJpc3MiOiJTZXJ2aWNlIiwiZXhwIjoxNjM0MzYzOTUwLCJ1c2VySWQiOiIxMDA2NyIsImlhdCI6MTYzMzQ5OTk1MH0.p_mpJFZXiP36BWQd7tLIy3Q4ln_EEf22FWoTXBLTFL0"/>
+        <parm key="userId" value ="10029"/>
+        <parm key="dealerId" value="24"/>
+        <parm key="userType" value="2"/>
+        <parm key="timestamp" value="1"/>
+        <parm key="nonce" value="1"/>
+        <parm key="Content-Type" value="application/json;charset=UTF-8"/>
+        <parm key="username" value=""/>
+        <parm key="password" value=""/>
+    </test>
+</data>

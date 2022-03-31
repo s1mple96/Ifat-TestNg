@@ -1,0 +1,16 @@
+{"comSource":
+{
+	"uuid": "1237643508852228997",
+	"channel": "TB",
+	"sourceUserId": 10904810,
+	"sourceStatus": 1,
+	"sourceCreateTime": "2020-12-29 18:20:44",
+	"sourcePaidTime": "2020-12-29 18:20:53",
+	"sourceVersion": 2,
+	"timeMap": {
+		"sourcePaidTime": "2020-12-29 18:20:53",
+		"sourceCreateTime": "2020-12-29 18:20:44"
+	},
+	"comUserItems": []
+}
+}

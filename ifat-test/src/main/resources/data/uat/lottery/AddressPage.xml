@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+    <test name = "AddressPage">
+        <parm key="condition" value ="{}"/>
+        <parm key="order" value=""/>
+        <parm key="page" value="1"/>
+        <parm key="rows" value="5"/>
+        <parm key="sort" value=""/>
+    </test>
+</data>

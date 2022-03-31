@@ -1,0 +1,16 @@
+{
+  "msg" : "请求成功!",
+  "trace" : null,
+  "data" : {
+    "total" : 1,
+    "dataList" : [ {
+      "id" : 2,
+      "username" : "菜鸟驿站",
+      "addressInfo" : "广东省深圳市龙岗区坂田街道大发埔社区泰山东村四巷七号菜鸟驿站",
+      "phone" : "13982844754",
+      "remark" : "来拿快递啊"
+    } ]
+  },
+  "code" : "0",
+  "timestamp" : 1648711340152
+}

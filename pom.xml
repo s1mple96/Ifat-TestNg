@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.meiji.test</groupId>
+    <artifactId>ifat-lottery</artifactId>
+    <name>美记抽奖自动化</name>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>ifat-biz</module>
+        <module>ifat-test</module>
+        <module>ifat-support</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <org.codehaus.groovy-groovy-all>3.0.6</org.codehaus.groovy-groovy-all>
+        <cn.hutool>5.4.1</cn.hutool>
+        <org.testng>7.0.0</org.testng>
+        <com.fasterxml.jackson.core>2.11.3</com.fasterxml.jackson.core>
+        <org.apache.httpcomponents>4.5.13</org.apache.httpcomponents>
+        <org.apache.commons>3.11</org.apache.commons>
+        <com.alibaba.fastjson>1.2.74</com.alibaba.fastjson>
+        <ru.yandex.qatools.allure>1.5.4</ru.yandex.qatools.allure>
+        <aspectj.version>1.7.4</aspectj.version>
+        <com.google.inject>3.0</com.google.inject>
+        <mongo-java-driver>3.12.7</mongo-java-driver>
+        <mysql-connector-java>8.0.21</mysql-connector-java>
+        <redis.clients>2.9.0</redis.clients>
+        <org.elasticsearch.client>5.6.0</org.elasticsearch.client>
+        <com.vividsolutions>1.13</com.vividsolutions>
+        <org.locationtech.spatial4j>0.6</org.locationtech.spatial4j>
+        <com.rabbitmq>5.9.0</com.rabbitmq>
+        <org.apache.rocketmq>4.7.1</org.apache.rocketmq>
+        <org.uncommons>1.1.4</org.uncommons>
+        <org.apache.velocity>1.7</org.apache.velocity>
+        <org.jsoup>1.13.1</org.jsoup>
+        <org.apache.dubbo>2.7.7</org.apache.dubbo>
+    </properties>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.miyuan.test</groupId>
+                <artifactId>ifat-support</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo</artifactId>
+                <version>${org.apache.dubbo}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-registry-nacos</artifactId>
+                <version>${org.apache.dubbo}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>1.2.17</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+</project>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans>
+    <bean name = "http">
+        <properties key="lottery" value="https://dev.etool.meiji8888.com"/>
+        <properties key="lottery2" value="https://test.lottery.meiji8888.com"/>
+        <properties key="lottery3" value="https://etool.meiji8888.com/"/>
+    </bean>
+
+    <bean name = "mysql-platform-goods">
+        <properties  key="url" value ="jdbc:mysql://172.27.2.63:3306/meiji_goods"/>
+        <properties  key="user" value ="code_write"/>
+        <properties  key="password" value ="6ba76bddb0473e860d7c"/>
+        <properties key="driver" value="com.mysql.cj.jdbc.Driver"/>
+    </bean>
+
+    <bean name="meiji-redis">
+        <properties  key="host" value ="172.27.2.73:6379,172.27.2.74:6379,172.27.2.75:6379"/>
+    </bean>
+
+    <bean name="dingTalk">
+        <properties  key="url" value ="https://oapi.dingtalk.com/robot/send?access_token=affdf320fd5e494447cd4b04041d4b1b2df915dd38b83784efbaf7d55c8998e0"/>
+        <properties  key="secret" value ="SEC5ccf454afeec0a5e7df6754c3f8c2940615716bf6a5cd46d43ceeb57cd335a12"/>
+    </bean>
+</beans>

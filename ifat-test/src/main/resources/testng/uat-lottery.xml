@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "美记抽奖"  verbose="4">
+    <test name="美记抽奖">
+        <classes>
+            <class name="com.meiji.test.http.lottery.address.AddressPageTest"></class>
+        </classes>
+    </test>
+</suite>
